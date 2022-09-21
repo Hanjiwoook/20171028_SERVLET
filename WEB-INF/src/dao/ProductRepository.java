@@ -7,38 +7,81 @@ public class ProductRepository {
 	private ArrayList<Product> listOfProducts = new ArrayList<Product>();
 
 	public ProductRepository() {
-		Product phone = new Product("P1234", "iPhone 6s", 800000);
-		phone.setDescription("4.7-inch, 1334X750 Renina HD display, 8-megapixel iSight Camera");
-		phone.setCategory("Smart Phone");
-		phone.setManufacturer("Apple");
-		phone.setUnitsInStock(1000);
-		phone.setCondition("New");
+		Product adidas_footballboot1 = new Product("P1234", "PREDATOR", 199000);
+		adidas_footballboot1.setDescription("245~290, Composition Leather, FG");
+		adidas_footballboot1.setCategory("Football Boot");
+		adidas_footballboot1.setManufacturer("Adidas");
+		adidas_footballboot1.setUnitsInStock(1000);
+		adidas_footballboot1.setCondition("New");
         
-        Product notebook = new Product("P1235", "LG PC 그램", 1500000);
-		notebook.setDescription("13.3-inch, IPS LED display, 5rd Generation Intel Core processors");
-		notebook.setCategory("Notebook");
-		notebook.setManufacturer("LG");
-		notebook.setUnitsInStock(1000);
-		notebook.setCondition("Refurbished");
+        Product adidas_footballboot2 = new Product("P1235", "X", 209000);
+		adidas_footballboot2.setDescription("250~290, Composition Leather, FG, HG, AG,");
+		adidas_footballboot2.setCategory("Football Boot");
+		adidas_footballboot2.setManufacturer("Adidas");
+		adidas_footballboot2.setUnitsInStock(1000);
+		adidas_footballboot2.setCondition("New");
+        
+        Product adidas_footballboot3 = new Product("P1236", "COPA", 189000);
+		adidas_footballboot3.setDescription("250~285, Composition Leather, FG, HG, AG,");
+		adidas_footballboot3.setCategory("Football Boot");
+		adidas_footballboot3.setManufacturer("Adidas");
+		adidas_footballboot3.setUnitsInStock(1000);
+		adidas_footballboot3.setCondition("New");
+        
+        Product nike_footballboot1 = new Product("P1237", "MERCURIAL", 339000);
+		nike_footballboot1.setDescription("255~290, , Artificial Leather, FG");
+		nike_footballboot1.setCategory("Football Boot");
+		nike_footballboot1.setManufacturer("NIKE");
+		nike_footballboot1.setUnitsInStock(1000);
+		nike_footballboot1.setCondition("New");
 
-		Product tablet = new Product("P1236", "Galaxy Tab S", 900000);
-		tablet.setDescription("212.8*125.6*6.6mm,  Super AMOLED display, Octa-Core processor");
-		tablet.setCategory("Tablet");
-		tablet.setManufacturer("Samsung");
-		tablet.setUnitsInStock(1000);
-		tablet.setCondition("Old");
+        Product nike_footballboot2 = new Product("P1238", "PHANTOM GT", 289000);
+		nike_footballboot2.setDescription("245~285, , Composition Leather, FG");
+		nike_footballboot2.setCategory("Football Boot");
+		nike_footballboot2.setManufacturer("NIKE");
+		nike_footballboot2.setUnitsInStock(1000);
+		nike_footballboot2.setCondition("New");
+        
+        Product nike_footballboot3 = new Product("P1239", "TIEMPO", 269000);
+		nike_footballboot3.setDescription("245~275, , Composition Leather, FG");
+		nike_footballboot3.setCategory("Football Boot");
+		nike_footballboot3.setManufacturer("NIKE");
+		nike_footballboot3.setUnitsInStock(1000);
+		nike_footballboot3.setCondition("New");
+        
+        Product mizuno_footballboot1 = new Product("P1240", "MORELIA NEO", 293000);
+		mizuno_footballboot1.setDescription("250~275, , K Leather, FG, HG, AG");
+		mizuno_footballboot1.setCategory("Football Boot");
+		mizuno_footballboot1.setManufacturer("MIZUNO");
+		mizuno_footballboot1.setUnitsInStock(1000);
+		mizuno_footballboot1.setCondition("New");
+        
+        Product mizuno_footballboot2 = new Product("P1241", "REBULA", 239000);
+		mizuno_footballboot2.setDescription("260~265, , K Leather, FG, HG, AG");
+		mizuno_footballboot2.setCategory("Football Boot");
+		mizuno_footballboot2.setManufacturer("MIZUNO");
+		mizuno_footballboot2.setUnitsInStock(1000);
+		mizuno_footballboot2.setCondition("New");
+        
+        Product mizuno_footballboot3 = new Product("P1242", "MORELIA", 237000);
+		mizuno_footballboot3.setDescription("265~270, , K Leather, FG, HG, AG");
+		mizuno_footballboot3.setCategory("Football Boot");
+		mizuno_footballboot3.setManufacturer("MIZUNO");
+		mizuno_footballboot3.setUnitsInStock(1000);
+		mizuno_footballboot3.setCondition("Old");
 		
-        Product tablet = new Product("P1236", "Galaxy Tab S", 900000);
-		tablet.setDescription("212.8*125.6*6.6mm,  Super AMOLED display, Octa-Core processor");
-		tablet.setCategory("Tablet");
-		tablet.setManufacturer("Samsung");
-		tablet.setUnitsInStock(1000);
-		tablet.setCondition("Old");
 		// 위와 같이 상품 초기화 하고 아래에 상품을 추가
 
-		listOfProducts.add(phone);
-		listOfProducts.add(notebook);
-		listOfProducts.add(tablet);
+		listOfProducts.add(adidas_footballboot1);
+        listOfProducts.add(adidas_footballboot2);
+        listOfProducts.add(adidas_footballboot3);
+		listOfProducts.add(nike_footballboot1);
+        listOfProducts.add(nike_footballboot2);
+        listOfProducts.add(nike_footballboot3);
+        listOfProducts.add(mizuno_footballboot1);
+        listOfProducts.add(mizuno_footballboot2);
+        listOfProducts.add(mizuno_footballboot3);
+
 		// listOfProducts.add(상품명);
 	}
 
