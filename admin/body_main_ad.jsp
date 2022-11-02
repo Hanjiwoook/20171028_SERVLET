@@ -29,7 +29,7 @@
 			%>
 			<div class="col-md-4">
                 <div class="card bg-dark text-black">
-                        <img src="../image/product/<%=product.getProductId()%>.jpg" class="card-img" alt="...">
+                        <img src="../image/product/<%=product.getFilename()%>" class="card-img" alt="...">
                         <div class="card-img-overlay">
                         <h5 class="card-title">축구화 이미지 샘플</h5>
                         <p class="card-text">출처 : 크레이지 11</p>

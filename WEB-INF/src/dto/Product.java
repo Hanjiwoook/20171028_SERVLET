@@ -5,6 +5,7 @@ public class Product implements Serializable {
 
 	private static final long serialVersionUID = -4274700572038677000L;
 
+    private String filename;    //파일 이름 변수
 	private String productId;	//상품 아이디
 	private String pname;		//상품명
 	private Integer unitPrice; //상품 가격
@@ -16,6 +17,14 @@ public class Product implements Serializable {
     public Product() {
 		super();
 	}
+    
+    public void setFilename(String filename) {  //파일 이름 설정
+        this.filename = filename;
+    }
+    
+    public String getFilename() { //파일 이름 리턴
+        return filename;
+    }
 
 	public Product(String productId, String pname, Integer unitPrice) {
 		this.productId = productId;
