@@ -72,6 +72,8 @@
     <div class ="col-sm-5">
       <input type="file" name="productImage" class="form-control">
         <input type="submit" class="btn btn-primary" value="등록" >
+        <a href="../login/logout.jsp" class="btn btn-sm btn-success pull-right">로그아웃</a>
+
     </div>
     </div>
 		</form>
