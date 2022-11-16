@@ -11,7 +11,7 @@
     Boolean conn_state = false;
 
 	Class.forName("com.mysql.jdbc.Driver");
-	String myUrl = "jdbc:mysql://localhost/데이터베이스 이름";
+	String myUrl = "jdbc:mysql://localhost/ggouppag_20171028";
 	Connection conn = DriverManager.getConnection(myUrl, "root", “패스워드");
 	try {
         	stm = conn.createStatement();
