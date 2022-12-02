@@ -31,7 +31,7 @@
                 <div class="card bg-dark text-black">
                         <img src="../image/product/<%=product.getFilename()%>" class="card-img" alt="...">
                         <div class="card-img-overlay">
-                        <h5 class="card-title">축구화 이미지 샘플</h5>
+                        <h5 class="card-title">축구화 이미지</h5>
                         <p class="card-text">출처 : 크레이지 11</p>
                         </div>
                         </div>
@@ -53,12 +53,4 @@
 				<%=greeting%>
 			</h1>
 		</div>
-	</div>	
-	<div class="container">
-		<div class="text-center">
-			<h3>
-				<%=tagline%>
-			</h3>
-		</div>
-		<hr>
 	</div>	

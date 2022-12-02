@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=utf-8"%>
-<nav class="navbar navbar-expand  navbar-white bg-white">
+<nav class="navbar navbar-expand  navbar-dark bg-dark">
 	<div class="dropdown">
   		<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     		카테고리
@@ -16,7 +16,7 @@
 	</div>
     
     <div>
-        <img src="image\banner_img_03.png" class="img-fluid" alt="main_image">
+        <img src="image\banner_img_03.gif" class="img-fluid" alt="main_image">
     </div>
     
 	<div class="container">
@@ -25,7 +25,9 @@
             <a class="navbar-brand" href="./index.jsp">회원 보기/추가/수정/삭제</a>
             <a class="navbar-brand" href="index_ad.jsp">상품 보기</a>
             <a class="navbar-brand" href="product_add.jsp">등록</a>
-            <a class="navbar-brand" href="index_ad.jsp">수정/삭제</a>
+            <a class="navbar-brand" href="product_edit.jsp?edit=update">수정</a>
+            <a class="navbar-brand" href="product_edit.jsp?edit=delete">삭제</a> 
+            <a href="../login/logout.jsp" class="btn btn-sm btn-success pull-right">로그아웃</a>
             <a class="navbar-brand" href="../index.jsp">일반모드</a>
 		</div>
 	</div>

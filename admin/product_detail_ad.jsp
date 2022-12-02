@@ -13,13 +13,6 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/javascript">
-	function addToCart() {
-		if (confirm("상품을 장바구니에 추가하시겠습니까?")) {
-			document.addForm.submit();
-		} else {		
-			document.addForm.reset();
-		}
-	}
        </script>
        <title>상품 상세 정보</title>
    </head>
@@ -54,7 +47,7 @@
             <p class="card-text">출처 : 구글 검색</p>
                 </div>
             </div>
-	<p><a href="#" class="btn btn-info"> 상품 주문 &raquo;</a> <a href="index.jsp" class="btn btn-secondary"> 상품 목록 &raquo;</a>
+	<p><a href="index_ad.jsp" class="btn btn-secondary"> 상품 목록 &raquo;</a> <%--상품주문 버튼 없애기--%>
 		</div>
 		</div>
 		<hr>

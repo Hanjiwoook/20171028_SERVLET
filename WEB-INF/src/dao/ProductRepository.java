@@ -19,6 +19,7 @@ public class ProductRepository {
 		adidas_footballboot1.setManufacturer("Adidas");
 		adidas_footballboot1.setUnitsInStock(1000);
 		adidas_footballboot1.setCondition("New");
+        
         adidas_footballboot1.setFilename("P1234.jpg");
         
         Product adidas_footballboot2 = new Product("P1235", "X", 209000);
